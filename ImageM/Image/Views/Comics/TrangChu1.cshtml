@@ -1,0 +1,28 @@
+﻿
+@model Image.Models.ComicGenreViewModel
+
+@{
+    ViewData["Title"] = "TrangChu1";
+}
+<script src="https://kit.fontawesome.com/fe0decd0b5.js" crossing="anonymous"></script>
+<link rel="stylesheet" href="~/css/site1.css"/>
+            <div class="row">
+   @foreach (var item in Model.Comics)
+            {
+        <div class="col-md-3 col-xs-6 border-primary mb-3">
+                <div class="row g-0">
+                    <div class="col-md-6" style="margin:auto">
+                        <img src="https://i.annihil.us/u/prod/marvel/i/mg/4/03/62017952d165c/portrait_uncanny.jpg" height="100%" width="100%" />
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card-footer ">
+                            <p class="card-text" style="text-align:center">
+                               <a asp-action="ThongTin" asp-route-id="@item.ID" style="color:white;font-size:17px">@item.TenTruyen</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+           
+        </div>
+    }
+</div>

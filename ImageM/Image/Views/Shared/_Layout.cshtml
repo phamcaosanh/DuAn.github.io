@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Comics Store</title>
+    <script src="https://kit.fontawesome.com/fe0decd0b5.js" crossing="anonymous"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <div class="text-center">
+            <div id="giua">
+                <div class="mySlides ">
+                    <img src="https://d9n64ieh9hz8y.cloudfront.net/wp-content/uploads/20200313011933/thumb-1920-927604-1.jpg" width="100%" height="360px">
+                </div>
+                <div class="mySlides ">
+                    <img src="https://www.supercomics.nl/wp-content/uploads/2020/03/slide-2.jpg" width="100%" height="360px">
+                </div>
+                <div class="mySlides ">
+                    <img src="https://pbs.twimg.com/media/FLbE13nXIAQ0z6K?format=jpg&name=large" width="100%" height="360px">
+                </div>
+  
+            </div>
+        </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+            <script>
+                //khai báo biến slideIndex đại diện cho slide hiện tại
+                var slideIndex;
+                // KHai bào hàm hiển thị slide
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+
+                    slides[slideIndex].style.display = "block";
+                    dots[slideIndex].className += " active";
+                    //chuyển đến slide tiếp theo
+                    slideIndex++;
+                    //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+                    if (slideIndex > slides.length - 1) {
+                        slideIndex = 0
+                    }
+                    //tự động chuyển đổi slide sau 5s
+                    setTimeout(showSlides, 5000);
+                }
+                //mặc định hiển thị slide đầu tiên
+                showSlides(slideIndex = 0);
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+            </script>
+         
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color:#42003D">
+                    <div class="container">
+                        <img src="\Anh\CS1.png" height="100" width="100" />
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                            <ul class="navbar-nav flex-grow-1" style="font-size:20px;font-weight:bold;">
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color:#820303; font-size:20px;" asp-area="" asp-controller="Comics" asp-action="TrangChu1">Trang Chủ</a>
+                                </li><p style="color:white">|</p>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color:#820303;font-size:20px;" asp-area="" asp-controller="Home" asp-action="TheLoai">Thể Loại</a>
+                                </li><p style="color:white">|</p>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color:#820303;font-size:20px;" asp-area="" asp-controller="Home" asp-action="NhanVat">Nhân Vật</a>
+                                </li><p style="color:white">|</p>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color:#820303;font-size:20px;" asp-area="" asp-controller="Home" asp-action="HoiDap">Hỏi Đáp</a>
+                                </li><p style="color:white">|</p>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color:#820303;font-size:20px;" asp-area="" asp-controller="Comics" asp-action="User">Giỏ Hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="container-2">
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <input type="search" id="search" placeholder="Search..." />
+                        </div>
+                    </div>
+                </nav>
+    </header>
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+
+            </main>
+        </div>
+
+    <footer>
+        <div class="container" style="color:white">
+            &copy; 2022 - Comics Store - <a asp-area="" asp-controller="Home" asp-action="HoiDap"></a>
+        </div>
+        <div class="container">
+         <!--Bắt Đầu Nội Dung Giới Thiệu-->
+         <div class="noi-dung about">
+             <h2>Về Chúng Tôi</h2>
+             
+             <ul class="social-icon">
+                 <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                 <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                 <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                 <li><a href=""><i class="fa fa-youtube"></i></a></li>
+             </ul>
+         </div>
+         <!--Kết Thúc Nội Dung Giới Thiệu-->
+         <!--Bắt Đầu Nội Dung Đường Dẫn-->
+         <div class="noi-dung links" style="color:white">
+             <h2>Đường Dẫn</h2>
+             <ul>
+                 <li><a asp-area="" asp-controller="Comics" asp-action="TrangChu1">Trang Chủ</a></li>
+                 <li><a href="#">Về Chúng Tôi</a></li>
+                 <li><a href="#">Thông Tin Liên Lạc</a></li>
+                 <li><a href="#">Dịch Vụ</a></li>
+                 <li><a href="#">Điều Kiện Chính Sách</a></li>
+             </ul>
+         </div>
+         <!--Kết Thúc Nội Dung Đường Dẫn-->
+         <!--Bắt Đâu Nội Dung Liên Hệ-->
+         <div class="noi-dung contact" style="color:white">
+             <h2>Thông Tin Liên Hệ</h2>
+             <ul class="info">
+                 <li>
+                     <span><i class="fa fa-map-marker"></i></span>
+                     <span>Đường Số 1<br />
+                         102A/16,Thành Phố Cam Ranh<br/>
+                         Việt Nam</span>
+                 </li>
+                 <li>
+                     <span><i class="fa fa-phone"></i></span>
+                     <p><a href="#">+84 123 456 789</a>
+                         <br />
+                         <a href="#">+84 123 456 789</a></p>
+                 </li>
+                 <li>
+                     <span><i class="fa fa-envelope"></i></span>
+                     <p><a href="#">phamcaosanhcr01ld@gmail.com</a></p>
+                </li>
+                 <li>
+                     <form class="form">
+                         <input type="email" class="form__field" placeholder="Đăng Ký Subscribe Email" />
+                         <button type="button" class="btn btn--primary  uppercase">Gửi</button>
+                     </form>
+                 </li>
+             </ul>
+         </div>
+         <!--Kết Thúc Nội Dung Liên Hệ-->
+     </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

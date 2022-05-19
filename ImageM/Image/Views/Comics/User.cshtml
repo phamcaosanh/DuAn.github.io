@@ -1,0 +1,64 @@
+﻿
+@model Image.Models.ComicGenreViewModel
+<body style="background-color:black;">
+@{
+    ViewData["Title"] = "Sản Phẩm";
+}
+
+    <form asp-controller="Comics" asp-action="Index" method="get">
+<p style="font-weight:bolder;color:white;">
+    <select asp-for="ComicGenre" asp-items="Model.Genres">
+<option value="">Tất Cả</option>
+</select>
+Tên Truyện: <input type="text" name="SearchString" />
+<input type="submit" value="Tìm Kiếm" />
+</p>
+</form>
+    <table class="table" style="border:hidden;border-radius:20px;background-color:#FFFFFF">
+        <thead>
+            <tr style="border:hidden;border-radius:20px;background-color:#66b2ff">
+                <th>
+                    @Html.DisplayNameFor(model => model.Comics[0].TenTruyen)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Comics[0].NgayPhatHanh)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Comics[0].TheLoai)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Comics[0].Gia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Comics[0].Rating)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Comics)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenTruyen)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NgayPhatHanh)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TheLoai)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gia)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rating)
+                    </td>
+                    <td>
+                        <a asp-action="UserDetail" asp-route-id="@item.ID">Thông tin</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </body>

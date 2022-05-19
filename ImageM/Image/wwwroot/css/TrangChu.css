@@ -1,0 +1,47 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+
+root {
+    --shadow: 0 1px 5px rgb(110, 9, 172 , 0.8);
+}
+
+.boxes {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, minmax(20px, 1fr));
+}
+
+    .boxes :hover {
+        overflow: hidden;
+        transition: 0.2s ease;
+    }
+
+.box {
+    border-radius: 0px 0px 10px 10px;
+    padding: 4rem 0rem;
+    box-shadow: var(--shadow);
+    margin: auto;
+    padding-top: 0;
+}
+
+    .box a {
+        color: #ffffff;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-left: -50px;
+        
+    }
+       
+    .box img:hover {
+        transform: scale(1.1);
+        overflow: hidden;
+    }
+    .box img {
+        object-fit: cover;
+        display: block;
+        transition: all .3s ease;
+    }
+
+    body {
+        background-color: #000000;
+    }

@@ -1,0 +1,56 @@
+﻿@model Image.Models.Comics
+
+@{
+    ViewData["Title"] = "Details";
+}
+<script src="https://kit.fontawesome.com/fe0decd0b5.js" crossing="anonymous"></script>
+<link rel="stylesheet" href="~/css/site2.css"/>
+<h1 style="color:white">Thông Tin</h1>
+
+<div>
+    <h4 style="color:white">Comics</h4>
+    <hr />
+   <div class="boxes">
+    <div class="box">
+   <img src="https://i.annihil.us/u/prod/marvel/i/mg/4/03/62017952d165c/portrait_uncanny.jpg" height="240" width="150"/>
+   </div>
+   <div class="box">
+    <dl class="row" style="color:white">
+        
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.TenTruyen)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenTruyen)
+        </dd>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.NgayPhatHanh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NgayPhatHanh)
+        </dd>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.TheLoai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TheLoai)
+        </dd>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Gia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gia)
+        </dd>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+    </dl>
+</div>
+</div>
+</div>
+<div>
+    <a asp-action="User">Back to List</a>
+</div>
