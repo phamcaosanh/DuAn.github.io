@@ -8240,11 +8240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\caosanh.github.io\\ImageM\\Image\\Image.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj",
       "projectName": "Image",
-      "projectPath": "E:\\caosanh.github.io\\ImageM\\Image\\Image.csproj",
+      "projectPath": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\caosanh.github.io\\ImageM\\Image\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

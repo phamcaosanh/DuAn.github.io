@@ -6,106 +6,128 @@
     <title>@ViewData["Title"] - Comics Store</title>
     <script src="https://kit.fontawesome.com/fe0decd0b5.js" crossing="anonymous"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://bootswatch.com/4/lumen/bootstrap.css" />
 </head>
 <body>
-    <header>
-        <div class="text-center">
-            <div id="giua">
-                <div class="mySlides ">
-                    <img src="https://d9n64ieh9hz8y.cloudfront.net/wp-content/uploads/20200313011933/thumb-1920-927604-1.jpg" width="100%" height="360px">
-                </div>
-                <div class="mySlides ">
-                    <img src="https://www.supercomics.nl/wp-content/uploads/2020/03/slide-2.jpg" width="100%" height="360px">
-                </div>
-                <div class="mySlides ">
-                    <img src="https://pbs.twimg.com/media/FLbE13nXIAQ0z6K?format=jpg&name=large" width="100%" height="360px">
-                </div>
-  
-            </div>
+      <header class="header">
+
+        <div class="header-1">
+
+          <a href="#" class="logo"> <i class="fas fa-hat-wizard"></i> Comics </a>
+
+             <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+             </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-gift"></a>
+            <div id="login-btn" class="fas fa-user"></div>
         </div>
-            <br>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(0)"></span>
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-            </div>
-            <script>
-                //khai báo biến slideIndex đại diện cho slide hiện tại
-                var slideIndex;
-                // KHai bào hàm hiển thị slide
-                function showSlides() {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
 
-                    slides[slideIndex].style.display = "block";
-                    dots[slideIndex].className += " active";
-                    //chuyển đến slide tiếp theo
-                    slideIndex++;
-                    //nếu đang ở slide cuối cùng thì chuyển về slide đầu
-                    if (slideIndex > slides.length - 1) {
-                        slideIndex = 0
-                    }
-                    //tự động chuyển đổi slide sau 5s
-                    setTimeout(showSlides, 5000);
-                }
-                //mặc định hiển thị slide đầu tiên
-                showSlides(slideIndex = 0);
+        </div>
+        <div class="header-2">
+         <nav class="nav1">
+             <a asp-area="" asp-controller="Comics" asp-action="TrangChu1">Trang Chủ</a>
+             <a asp-area="" asp-controller="Home" asp-action="TheLoai">Thể Loại</a>
+             <a asp-area="" asp-controller="Home" asp-action="NhanVat">Nhân Vật</a>
+             <a asp-area="" asp-controller="Home" asp-action="HoiDap">Hỏi Đáp</a>
+             <a asp-area="" asp-controller="Comics" asp-action="User">Giỏ Hàng</a>
+         </nav>
+        </div>
 
-                function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                }
-            </script>
-         
-                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color:#42003D">
-                    <div class="container">
-                        <img src="\Anh\CS1.png" height="100" width="100" />
-
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                            <ul class="navbar-nav flex-grow-1" style="font-size:20px;font-weight:bold;">
-                                <li class="nav-item">
-                                    <a class="nav-link" style="color:#820303; font-size:20px;" asp-area="" asp-controller="Comics" asp-action="TrangChu1">Trang Chủ</a>
-                                </li><p style="color:white">|</p>
-                                <li class="nav-item">
-                                    <a class="nav-link" style="color:#820303;font-size:20px;" asp-area="" asp-controller="Home" asp-action="TheLoai">Thể Loại</a>
-                                </li><p style="color:white">|</p>
-                                <li class="nav-item">
-                                    <a class="nav-link" style="color:#820303;font-size:20px;" asp-area="" asp-controller="Home" asp-action="NhanVat">Nhân Vật</a>
-                                </li><p style="color:white">|</p>
-                                <li class="nav-item">
-                                    <a class="nav-link" style="color:#820303;font-size:20px;" asp-area="" asp-controller="Home" asp-action="HoiDap">Hỏi Đáp</a>
-                                </li><p style="color:white">|</p>
-                                <li class="nav-item">
-                                    <a class="nav-link" style="color:#820303;font-size:20px;" asp-area="" asp-controller="Comics" asp-action="User">Giỏ Hàng</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="container-2">
-                            <span class="icon"><i class="fa fa-search"></i></span>
-                            <input type="search" id="search" placeholder="Search..." />
-                        </div>
-                    </div>
-                </nav>
     </header>
+    <!-- header section ends -->
 
-        <div class="container">
-            <main role="main" class="pb-3">
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+    </div>
+    
+
+    <!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+    <div >
+            <main role="main" >
                 @RenderBody()
 
             </main>
         </div>
+
+    <!-- featured section ends -->
+
+    <!-- newsletter section starts -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @*<div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+
+            </main>
+        </div>*@
 
     <footer>
         <div class="container" style="color:white">
@@ -170,6 +192,9 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link  -->
+
     @RenderSection("Scripts", required: false)
 </body>
 </html>
