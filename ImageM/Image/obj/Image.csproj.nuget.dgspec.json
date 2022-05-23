@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj": {}
+    "E:\\DuAn.github.io\\ImageM\\Image\\Image.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj": {
+    "E:\\DuAn.github.io\\ImageM\\Image\\Image.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj",
+        "projectUniqueName": "E:\\DuAn.github.io\\ImageM\\Image\\Image.csproj",
         "projectName": "Image",
-        "projectPath": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj",
+        "projectPath": "E:\\DuAn.github.io\\ImageM\\Image\\Image.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\obj\\",
+        "outputPath": "E:\\DuAn.github.io\\ImageM\\Image\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

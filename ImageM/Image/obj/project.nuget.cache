@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YxVNLKHT7AETsXKPNeff6RaqFuctL3w84meTN2X0xXIhzr4rbNfLeK5eFefGjujKyYwj895+txnflrz8zOR4lg==",
+  "dgSpecHash": "WVrS9yRfZRCJgJE8kFawLZa5ZG4JTTAgDX7z8SjqoLO0SFmtD78B9cmkhsykGRp8X3ayA/tIwGyg0cfsWkLqlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj",
+  "projectFilePath": "E:\\DuAn.github.io\\ImageM\\Image\\Image.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
