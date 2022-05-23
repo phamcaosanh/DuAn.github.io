@@ -37,21 +37,21 @@ Nhấp vào mục giỏ hàng trên thanh Menu sẽ được điều hướng đ
 
    Tính năng của một số vùng chọn ở Ảnh trên:
     
-  + Nút create : Chức năng thêm sản phẩm.
+   Nút create : Chức năng thêm sản phẩm.
   ![image](https://user-images.githubusercontent.com/72543595/169767443-738c01bc-3176-4851-9d81-6caed7b9422e.png)
     
-  + Thanh tìm kiếm : Chức năng tìm kiếm theo thể loại hoặc tên sản phẩm.
+   Thanh tìm kiếm : Chức năng tìm kiếm theo thể loại hoặc tên sản phẩm.
   ![image](https://user-images.githubusercontent.com/72543595/169767690-c3197579-dab7-422b-b820-034b53eebe79.png)
 
   ![image](https://user-images.githubusercontent.com/72543595/169767779-66759674-d100-46f7-a638-0b2dc8adaced.png)
 
-  + Nút chỉnh sửa: Chức năng chỉnh sửa thông tin sản phẩm.
+   Nút chỉnh sửa: Chức năng chỉnh sửa thông tin sản phẩm.
   ![image](https://user-images.githubusercontent.com/72543595/169767932-dc06ec37-003d-4e25-87fe-2019f73965ee.png)
     
-  + Nút thông tin: Chức năng hiện thị thông tin sản phẩm dành cho Admin.
+   Nút thông tin: Chức năng hiện thị thông tin sản phẩm dành cho Admin.
   ![image](https://user-images.githubusercontent.com/72543595/169768143-a787fb04-b93f-43a9-af09-9e6dbc6a0bf2.png)
     
-  + Nút xóa: Chức năng xóa sản phẩm khỏi danh sách.
+   Nút xóa: Chức năng xóa sản phẩm khỏi danh sách.
   ![image](https://user-images.githubusercontent.com/72543595/169768345-8cfc149c-a92c-47e6-ab1b-ebad046daed6.png)
 
 
