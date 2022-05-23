@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DuAn.github.io\\ImageM\\Image\\Image.csproj": {}
+    "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj": {}
   },
   "projects": {
-    "E:\\DuAn.github.io\\ImageM\\Image\\Image.csproj": {
+    "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DuAn.github.io\\ImageM\\Image\\Image.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj",
         "projectName": "Image",
-        "projectPath": "E:\\DuAn.github.io\\ImageM\\Image\\Image.csproj",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\Image.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\DuAn.github.io\\ImageM\\Image\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\Compressed\\DuAn.github.io-main\\DuAn.github.io-main\\DuAn.github.io-main\\ImageM\\Image\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

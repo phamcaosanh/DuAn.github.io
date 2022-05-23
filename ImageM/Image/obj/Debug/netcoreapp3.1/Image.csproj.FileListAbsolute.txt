@@ -601,7 +601,6 @@ C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn
 C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Razor\Views\Home\TrangChu.cshtml.g.cs
 C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout1.cshtml.g.cs
 C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
@@ -612,3 +611,4 @@ C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn
 C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Image.dll
 C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Image.pdb
 C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Image.genruntimeconfig.cache
+C:\Users\Admin\Downloads\Compressed\DuAn.github.io-main\DuAn.github.io-main\DuAn.github.io-main\ImageM\Image\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout1.cshtml.g.cs

@@ -1,14 +1,15 @@
 ﻿@model Image.Models.Comics
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Thông tin";
 }
+
 <script src="https://kit.fontawesome.com/fe0decd0b5.js" crossing="anonymous"></script>
 <link rel="stylesheet" href="~/css/site2.css"/>
-<h1 style="color:white">Thông Tin</h1>
+<h1 class="container" style="color:white">Thông Tin</h1>
 
 
-
+<div class="container">
 <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="https://i.annihil.us/u/prod/marvel/i/mg/4/03/62017952d165c/portrait_uncanny.jpg" alt="Card image cap">
   <div class="card-body">
@@ -21,12 +22,7 @@
 </div>
 
 
-
-
-
-
-
-
 <div>
     <a asp-action="User">Back to List</a>
+</div>
 </div>
