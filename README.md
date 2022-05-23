@@ -12,27 +12,33 @@ Giao diện trang chủ(bao gồm giao diện người dùng):
 Khi nhấp vào vùng được chọn sẽ hiển thị Form login:
 
 Ảnh 1:
+
 ![image](https://user-images.githubusercontent.com/72543595/169766355-33ef3666-5458-49bd-946e-b29a870af61a.png)
 
 Ảnh 2:
+
 ![image](https://user-images.githubusercontent.com/72543595/169766416-e686ec08-a754-4028-be53-a9fb9f619271.png)
 
 
 Khi nhấp vào vùng được chọn sẽ hiển thị chi tiết sản phẩm:
 
 Ảnh 1:
+
 ![image](https://user-images.githubusercontent.com/72543595/169765497-63934bc8-fd8e-4b9f-9d7d-c2e560dedaf3.png)
 
 Ảnh 2:
+
 ![image](https://user-images.githubusercontent.com/72543595/169768456-59a0d876-ef59-4bea-9fe6-070276de88d3.png)
 
 
 Nhấp vào mục giỏ hàng trên thanh Menu sẽ được điều hướng đến giao diện của Admin:
 
 Ảnh 1:
+
 ![image](https://user-images.githubusercontent.com/72543595/169766762-12f04562-31d4-4e89-a6d0-2c314e95e5b8.png)
 
 Ảnh 2:
+
 ![image](https://user-images.githubusercontent.com/72543595/169766997-059f80b6-a23e-4727-a5af-ebecceee3257.png)
 
    Tính năng của một số vùng chọn ở Ảnh trên:
